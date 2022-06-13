@@ -3,18 +3,27 @@ body {
 }
 
 h1 {
-  color: blue;
+  color: purple;
+}
+
+h2 {
+  color: purple;
 }
 
 p {
   background-color: aqua;
 }
 
-#main-article {
-  display: grid;
+header > h1 {
+  color: purple;
 }
+header > h2 {
+  color: purple;
+}
+
 #main-article > p {
   font-weight: bold;
+  color: purple;
 }
 #main-article:hover {
   font-size: 3rem;

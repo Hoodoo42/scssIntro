@@ -2,19 +2,38 @@ body{
     background-color: rebeccapurple;
 }
 
-h1 {
-  color: blue;
-}
 
+$main-font-color: purple;
+
+h1 {
+  color: $main-font-color
+}
+h2{
+    color: $main-font-color;
+}
 p {
     background-color: aqua;
   }
 
-#main-article {
-  display: grid;
+
+header{
+
+    >h1 {
+        color: $main-font-color;
+    }
+    >h2{
+        color: $main-font-color;
+    } 
+    
+}
+
+
+
+  #main-article {
+ 
   > p {
     font-weight: bold;
-   
+   color: $main-font-color;
   }
   &:hover {
     font-size: 3rem;
