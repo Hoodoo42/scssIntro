@@ -1,7 +1,21 @@
+body {
+  background-color: rebeccapurple;
+}
+
 h1 {
   color: blue;
 }
 
 p {
   background-color: aqua;
+}
+
+#main-article {
+  display: grid;
+}
+#main-article > p {
+  font-weight: bold;
+}
+#main-article:hover {
+  font-size: 3rem;
 }/*# sourceMappingURL=style.css.map */

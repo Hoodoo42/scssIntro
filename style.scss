@@ -1,7 +1,22 @@
-h1{
-    color: blue;
+body{
+    background-color: rebeccapurple;
 }
 
-p{
+h1 {
+  color: blue;
+}
+
+p {
     background-color: aqua;
+  }
+
+#main-article {
+  display: grid;
+  > p {
+    font-weight: bold;
+   
+  }
+  &:hover {
+    font-size: 3rem;
+  }
 }
