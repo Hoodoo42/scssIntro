@@ -1,19 +1,6 @@
-body{
-    background-color: rebeccapurple;
-}
+@use "general";
+$main-font-color: rgb(255, 173, 255);
 
-
-$main-font-color: purple;
-
-h1 {
-  color: $main-font-color
-}
-h2{
-    color: $main-font-color;
-}
-p {
-    background-color: aqua;
-  }
 
 
 header{
